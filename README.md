@@ -7,4 +7,4 @@ gzip解压工具
 ![image](https://github.com/Happy-LYZ/un-gzip/blob/master/1.png)
 
 ## 2、拷贝待解压的字符串，填入解压文本框，点击“解压”。解压后如下图：
-![image](https://github.com/Happy-LYZ/un-gzip/blob/master/2.jpg)
+![image](https://github.com/Happy-LYZ/un-gzip/blob/master/1.png)
