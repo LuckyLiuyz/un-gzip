@@ -1,0 +1,97 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+.tips{
+    line-height: 60px;
+}
+.page-wrapper{
+    margin: 10px 20px;
+}
+.text-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e2e2e2;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.left-text{
+    flex: 1;
+}
+
+.right-text{
+    flex: 1;
+}
+.zip-textarea{
+    display: block;
+    width: 88%;
+    height: 450px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    resize: none;
+    margin: auto;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.middle-btn{
+    margin-top: 20px;
+}
+.middle-btn button{
+    display: inline-block;
+    padding: 6px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.zip-btn{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.unzip-btn{
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+textarea::-webkit-scrollbar {
+    width: 6px;
+    height: 10px;
+    background-color: rgb(196, 189, 189);
+}
+ 
+/*定义滚动条轨道 内阴影+圆角*/
+textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+ 
+/*定义滑块 内阴影+圆角*/
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #999;
+}
