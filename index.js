@@ -18,7 +18,7 @@ var base64DecodeChars = new Array(-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
  */
 function unzip() {
     try{
-        document.getElementById("target-code").innerHTML = "";
+        document.getElementById("target-code").innerText = "";
         var str = document.getElementById("origin-code").value;
         if (str == undefined) {
             return null;
