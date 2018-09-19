@@ -18,8 +18,8 @@ var base64DecodeChars = new Array(-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
  */
 function unzip() {
     try{
-        document.getElementById("target-code").innerText = "";
-        var str = document.getElementById("origin-code").value;
+        $("#target-code").val("");
+        var str = $("#origin-code").val();
         if (str == undefined) {
             return null;
         }
@@ -39,8 +39,8 @@ function unzip() {
             strData.error.stack = stack;
         }
         console.log("解压结果：", strData);
-        strData = JSON.stringify(strData, null, 4)
-        document.getElementById("target-code").innerText = strData;
+        strData = JSON.stringify(strData, null, 4);
+        $("#target-code").val(strData);
     }catch (error){
         document.getElementById("target-code").innerText = "解压出现异常====>" + error;
     }
@@ -51,14 +51,14 @@ function unzip() {
  */
 function zip() {
     try{
-        document.getElementById("target-code").innerText = "";
-        var str = document.getElementById("origin-code").value;
+        $("#target-code").val("");
+        var str = $("#origin-code").val();
         if (str == undefined) {
             return null;
         }
         var gstr2 = pako.gzip(str);
         gstr2 = encodeBase64(gstr2)
-        document.getElementById("target-code").innerText = gstr2;
+        $("#target-code").val(gstr2);
     }catch(error){
         document.getElementById("target-code").innerText = "压缩出现异常====>" + error;
     }
