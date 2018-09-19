@@ -4,29 +4,35 @@ html body{
 }
 .tips{
     line-height: 60px;
+    margin: 0;
 }
 .page-wrapper{
-    margin: 10px 20px;
+    padding: 10px 20px;
+    height: 100%;
+    box-sizing: border-box;
 }
 .text-area{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80%;
     background: #e2e2e2;
-    padding: 30px;
+    padding: 20px;
     box-sizing: border-box;
 }
 .left-text{
     flex: 1;
+    height: 100%;
 }
 
 .right-text{
     flex: 1;
+    height: 100%;
 }
 .zip-textarea{
     display: block;
-    width: 88%;
-    height: 450px;
+    width: 96%;
+    height: 100%;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.428571429;
