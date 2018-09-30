@@ -72,13 +72,13 @@ html body{
 }
 .zip-btn{
     color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+    background-color: #d9534f;
+    border-color: #d43f3a;
 }
 .unzip-btn{
     color: #fff;
-    background-color: #d9534f;
-    border-color: #d43f3a;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
 }
 
 /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
