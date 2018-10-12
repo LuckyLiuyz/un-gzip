@@ -1,5 +1,5 @@
 # un-gzip
-gzip解压工具
+## gzip压缩、解压工具
 ### 演示地址： http://198.13.43.159:8000/index.html
 
 
