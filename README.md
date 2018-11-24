@@ -1,6 +1,6 @@
 # un-gzip
 ## gzip压缩、解压工具
-#### 演示地址： http://www.happy-lyz.cf/
+#### 演示地址： http://www.happy-lyz.cf/?_blank
 
 
 # 使用教程
